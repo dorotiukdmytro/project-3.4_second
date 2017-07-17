@@ -1,0 +1,32 @@
+{
+  "name": "kodilla-project-3.4",
+  "version": "1.0.0",
+  "description": "Project-3.4 with Grunt",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "project-3.4_second"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorotiukdmytro/first-repository.git"
+  },
+  "keywords": [
+    "dmytro"
+  ],
+  "author": "Dmytro Dorotiuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dorotiukdmytro/first-repository/issues"
+  },
+  "homepage": "https://github.com/dorotiukdmytro/first-repository#readme"
+}

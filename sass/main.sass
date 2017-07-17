@@ -1,0 +1,270 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css)
+
+* 
+	box-sizing: border-box
+	//border: 1px solid blue
+
+body 
+	margin: 0 auto
+	width: 100%
+
+.container 
+	max-width: 1200px
+	margin: 0 auto
+	width: 100%
+
+.row:before, .row:after 
+	content: ""
+	display: table
+	clear: both
+
+.col-1 
+	width: 8.33%
+.col-2
+	width: 16.66%
+.col-3 
+	width: 25%
+.col-4 
+	width: 33.33%
+.col-5 
+	width: 41.66%
+.col-6 
+	width: 50%
+.col-7 
+	width: 58.33%
+.col-8 
+	width: 66.66%
+.col-9 
+	width: 75%
+.col-10 
+	width: 83.33%
+.col-11 
+	width: 91.66%
+.col-12 
+	width: 100%
+
+.col-offset-1 
+	margin-left: 8.33%
+.col-offset-2 
+	margin-left: 16.66%
+.col-offset-3 
+	margin-left: 25%
+.col-offset-4 
+	margin-left: 33.33%
+.col-offset-5 
+	margin-left: 41.66%
+.col-offset-6 
+	margin-left: 50%
+.col-offset-7 
+	margin-left: 58.33%
+.col-offset-8 
+	margin-left: 66.66%
+.col-offset-9 
+	margin-left: 75%
+.col-offset-10 
+	margin-left: 83.33%
+.col-offset-11 
+	margin-left: 91.66%
+
+[class*="col"] 
+	float: left
+
+/*====Jumbotron====*/
+.jumbotron 
+	width: 100%
+	height: 100vh
+	padding-top: 0
+	padding-bottom: 0
+	img 
+		height: 100%
+		width: 100%
+		padding-top: 0
+		padding-bottom: 0
+		position: relative
+		margin: 0 auto
+	.row 
+		left: 0
+		top: 200px
+		position: absolute
+		color: #FFFFFF
+		margin-right: 20px
+	.slogan 
+		padding-left: 50px
+
+/*====Phone====*/
+.phone 
+	margin-top: 100px
+	margin-bottom: 50px
+	position: relative
+	.picture 
+		height: 100vh
+		position: absolute
+		bottom: 200px
+		right: 100px
+		img 
+			height: 100%
+	h2 
+		margin: 20px 10px
+	p 
+		margin: 20px 10px
+	.right 
+		padding-top: 180px
+
+/*=====Gallery=====*/
+.gallery
+	margin-left: 100px
+	.first
+		margin: 0
+	.second
+		margin: 0
+	.three
+		background: url(https://static.pexels.com/photos/308773/pexels-photo-308773.jpeg)
+		background-size: cover
+	.five
+		background: url(https://static.pexels.com/photos/51387/mount-everest-himalayas-nuptse-lhotse-51387.jpeg)
+		background-size: cover
+	.seven
+		background: url(https://static.pexels.com/photos/164022/pexels-photo-164022.jpeg)
+		background-size: cover
+	.one
+		background: #F89292
+	.two
+		background: #4A375F
+	.four
+		background: #A966A1
+	.six
+		background: #79BC75
+	.text
+		position: relative
+		top: 0	
+		left: 0
+/*=====Details=====*/
+.details 
+	margin: 100px auto
+	p, h4, h2 
+		padding: 20px 10px
+	p 
+		font-size: 20px
+
+/*====Jumbotron-two=====*/
+.jumbotron-two 
+	position: relative
+	margin-top: 50px
+	margin-bottom: 0
+	padding: 0
+	img 
+		width: 100%
+		height: auto
+	a 
+		text-decoration: none
+		color: #FFFFFF
+	.power 
+		position: absolute
+		top: 50px
+		color: #DFDFDF
+
+/*===Reasons====*/
+.reasons 
+	margin-top: 0
+	margin-bottom: 0
+	padding-top: 20px
+	padding-bottom: 50px
+	background-color: #61CA95
+	color: white
+	p 
+		padding: 10px
+
+/*====Shop====*/
+.shop 
+	margin: 0
+	background-color: #F4F4F4
+	padding: 50px
+	.parts 
+		margin: 20px 15vw
+	.left, .right 
+		padding: 10px 50px
+		span 
+			padding: 5px 10px
+			border-radius: 5px
+			background-color: #963896
+			color: #FFFFFF
+			text-transform: uppercase
+			font-size: 10px
+	.left 
+		span 
+			padding: 5px 10px
+			border-radius: 5px
+			background-color: #9B9B9B
+			color: #FFFFFF
+			text-transform: uppercase
+			font-size: 10px
+	.right 
+		background-color: #FFFFFF
+		box-shadow: 0 0 60px #9B9B9B
+	p 
+		margin: 20px 0
+	a 
+		margin-top: 20px
+		padding: 10px 20px
+		list-style-type: none
+		text-decoration: none
+		background-color: #61CA95
+		color: #FFFFFF
+		text-transform: uppercase
+		border-radius: 5px
+		&:hover 
+			background-color: #8DE1B6
+	.icons 
+		margin: 20px 0
+	.fa 
+		margin: 10px 0
+		font-size: 22px
+		color: #6E6E6E
+	.fa-apple 
+		margin-right: 5px
+	.fa-windows 
+		margin-left: 5px
+
+/*====Touch====*/
+.touch 
+	background-color: #141430
+	color: #FFFFFF
+	.get 
+		padding: 40px 0
+		padding-right: 20px
+	.stay 
+		padding: 40px 0
+		padding-left: 40px
+		padding-right: 100px
+	.spam 
+		color: #888888
+		margin: 0
+		font-size: 12px
+		margin-top: 10px
+	.resources 
+		margin: 0
+		p 
+			font-size: 12px
+		h5 
+			padding: 10px 0
+	.send 
+		margin: 20px 0
+		padding-right: 40px
+	.btn 
+		background-color: #61CA95
+	.fa 
+		color: #FFFFFF
+		font-size: 14px
+		margin: 0
+	.form-control 
+		border-radius: 0
+	.btn-default 
+		border-radius: 0
+
+/*====Footer====*/
+.footer 
+	color: #FFFFFF
+	font-size: 12px
+	background-color: #141430
+	text-align: center
+	padding-top: 10px
